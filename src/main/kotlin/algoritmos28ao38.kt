@@ -118,8 +118,9 @@ fun main () {
     Ler um numero real e imprimir a terça parte deste numero.
      */
 
+    println()
     println("Entre com um número real: ")
-    val numberReal: Double = readln().toDouble
+    val numberReal: Double = readln().toDouble()
 
     println("A terça parte é: ${numberReal/3}")
 }
